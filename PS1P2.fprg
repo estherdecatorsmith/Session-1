@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-27 01:40:07 AM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTI5NkUxVlA7MjAyMi0wMi0yNzswMTowMzoxOCBBTTszMjc5"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTI5NkUxVlA7MjAyMi0wMi0yNzswMTo0MDowNyBBTTsxOzMzODY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <declare name="numdiv" type="Integer" array="False" size=""/>
+            <declare name="remain" type="Integer" array="False" size=""/>
+            <declare name="resultdiv" type="Real" array="False" size=""/>
+            <output expression="&quot;input number: &quot;" newline="False"/>
+            <input variable="num"/>
+            <output expression="&quot;Input division number:&quot;" newline="True"/>
+            <input variable="numdiv"/>
+            <assign variable="resultdiv" expression="num / numdiv"/>
+            <assign variable="remain" expression="num % numdiv"/>
+            <output expression="num &amp; &quot; = &quot; &amp; numdiv &amp;&quot; x &quot; &amp; resultdiv &amp;&quot; + &quot;&amp; remain" newline="True"/>
+            <output expression="resultdiv" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
