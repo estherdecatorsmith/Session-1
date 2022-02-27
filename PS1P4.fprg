@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-27 03:01:54 AM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTI5NkUxVlA7MjAyMi0wMi0yNzswMjo1NTowOSBBTTszMjg3"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTI5NkUxVlA7MjAyMi0wMi0yNzswMzowMTo1NCBBTTsxOzMzODc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Please enter bill amount&quot;" newline="True"/>
+            <declare name="bill" type="Real" array="False" size=""/>
+            <input variable="bill"/>
+            <declare name="tip" type="Integer" array="False" size=""/>
+            <assign variable="tip" expression="bill*0.15"/>
+            <output expression="&quot;the tip amount is $&quot; &amp; tip" newline="True"/>
+            <output expression="&quot;the total amount including the tip will be &quot;&amp;(tip+bill)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
