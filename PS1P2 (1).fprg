@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-27 02:53:02 AM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTI5NkUxVlA7MjAyMi0wMi0yNzswMjozNzoxOCBBTTszMjg3"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTI5NkUxVlA7MjAyMi0wMi0yNzswMjo1MzowMiBBTTsxOzMzODY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="name" type="String" array="False" size=""/>
+            <input variable="name"/>
+            <declare name="avg" type="Real" array="False" size=""/>
+            <declare name="total" type="Integer" array="False" size=""/>
+            <declare name="score1, score2" type="Integer" array="False" size=""/>
+            <input variable="score1"/>
+            <input variable="score2"/>
+            <assign variable="total" expression="score1 + score2"/>
+            <assign variable="avg" expression="total / 2"/>
+            <output expression="avg" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
