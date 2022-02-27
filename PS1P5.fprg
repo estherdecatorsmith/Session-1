@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-27 03:25:11 AM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTI5NkUxVlA7MjAyMi0wMi0yNzswMzowMzo0NyBBTTszMjgz"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTI5NkUxVlA7MjAyMi0wMi0yNzswMzoyNToxMSBBTTsxOzMzODY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="salesTax" type="Real" array="False" size=""/>
+            <declare name="subtotal" type="Real" array="False" size=""/>
+            <declare name="total" type="Real" array="False" size=""/>
+            <assign variable="salesTax" expression="0.07"/>
+            <declare name="item1, item2, item3" type="Real" array="False" size=""/>
+            <input variable="item1"/>
+            <input variable="item2"/>
+            <input variable="item3"/>
+            <assign variable="subtotal" expression="item1 + item2+ item3"/>
+            <assign variable="salesTax" expression="subtotal*salesTax"/>
+            <assign variable="total" expression="subtotal+salesTax"/>
+            <output expression="&quot;total:&quot; &amp; total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
